@@ -13,7 +13,7 @@ module Spree::BaseHelper
            link_to(taxon.name, seo_url(taxon)) +
              taxons_tree(taxon, current_taxon, max_level - 1)
           end
-        end.join('/n').html_safe
+        end.join('').html_safe
       end
     end
 end
