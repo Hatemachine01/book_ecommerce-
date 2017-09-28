@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'imagemagick-identify'
 gem 'paperclip'
+gem "solidus_gateway"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
