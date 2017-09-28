@@ -25,4 +25,4 @@ module Spree::CheckoutHelper
     end
     content_tag('ol', raw(items.join("\n")), class: 'progress-steps nav nav-pills nav-justified', id: "checkout-step-#{@order.state}")
   end
-end
+end 

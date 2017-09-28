@@ -73,7 +73,7 @@
               <% @differentiator.missing.each do |variant, quantity| %>
                 <tr class="stock-item">
                   <td class="item-image"><%= image_tag variant.display_image.attachment(:mini) %></td>
-                  <td class="item-name"><%= variant.name %></td>
+                  <td class="item-name"><%= variant.name %></td><br>
                   <td class="item-qty"><%= quantity %></td>
                   <td class="item-price"><%= display_price(variant) %></td>
                 </tr>
