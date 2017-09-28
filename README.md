@@ -1,24 +1,8 @@
-# README
+E-commerce platform for a writer. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Rails 5.1.4
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* GEMS
+	gem 'solidus'
+	gem 'solidus_auth_devise'
+	gem 'bootstrap-sass'
