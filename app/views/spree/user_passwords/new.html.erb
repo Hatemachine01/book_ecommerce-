@@ -1,0 +1,24 @@
+<%= render partial: 'spree/shared/error_messages', locals: { target: @spree_user } %>
+<div class="forgot">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading" id="forgot-password">
+        <div>
+          <%= Spree.t(:forgot_password) %>
+        </div>
+        <div class="panel-body">
+        <p><%= Spree.t(:instructions_to_reset_password) %></p>
+          <%= form_for Spree::User.new, as: :spree_user, url: spree.reset_password_path do |f| %>
+            <div class="form-group">
+              <%= f.label :email, Spree.t(:email) %><br />
+              <%= f.email_field :email ,class: "form-control" %>
+            </div>
+            <div class="action">
+              <%= f.submit Spree.t(:reset_password), class: ' btn btn-success btn-block' %>
+            </div>
+            <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
