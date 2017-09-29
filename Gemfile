@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'imagemagick-identify'
 gem 'paperclip'
 gem "solidus_gateway"
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk'
 
 
 group :development, :test do
