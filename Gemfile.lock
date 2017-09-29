@@ -368,7 +368,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (< 2.0)
+  aws-sdk
   bootstrap-sass
   byebug
   capybara (~> 2.13)
