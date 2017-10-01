@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+.main-photo {
+	margin-top:100px;
+	margin-left: 100px;
+    height: 230px;
+	width:	200px;
+}
+
+body {
+
+	background-image: url(background1.jpeg);
+}
