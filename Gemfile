@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'imagemagick-identify'
 gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 gem "solidus_gateway"
-gem 'aws-sdk'
+gem 'aws-sdk' , '< 2.0'
 
 
 group :development, :test do
