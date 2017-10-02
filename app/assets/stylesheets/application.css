@@ -20,18 +20,28 @@
 	display: block;
 	margin-top:100px;
 	margin-left: 100px;
-    height: 230px;
+  height: 230px;
 	width:	200px;
-	border-radius: 25px;
 	margin: 0 auto;
+  box-shadow: 10px 10px 5px #888888;
 }
+
 
 .navbar {
 background-color: black;
-border-color: gray;
+border-color: black;
 
 }
 
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+.navbar-brand {
+  
+  color: white !important ;
+  font-size: 1.5em !important;
+}
 
 body {
 
