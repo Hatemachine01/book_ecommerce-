@@ -23,7 +23,7 @@
   height: 230px;
 	width:	200px;
 	margin: 0 auto;
-  box-shadow: 10px 10px 5px #888888;
+
 }
 
 
@@ -54,8 +54,8 @@ body {
 	display: block;
 	margin: 5% auto;
 	border-radius: 25px;
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(220,220,220, 0.5);
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(220,220,220, 0.5);
 }
 
 p {
